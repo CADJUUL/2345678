@@ -1,0 +1,34 @@
+body {
+    background-color: #f006d1; /* Cor de fundo cinza claro */
+    color: #333; /* Cor do texto cinza escuro */
+    font-size: 16px; /* Tamanho da fonte padrão */
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff; /* Cor de fundo branca para o contêiner */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efeito de sombra suave */
+}
+
+h1 {
+    font-size: 200px; /* Tamanho da fonte para cabeçalho */
+    color: #e8e7e8;
+}
+
+p {
+    font-size: 100px; /* Tamanho da fonte para parágrafos */
+}
+.image-container {
+    width: 300px; 
+    height: 200px; 
+    overflow: hidden; 
+  }
+  .image-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+  }
+  
