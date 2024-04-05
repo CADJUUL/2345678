@@ -1,3 +1,12 @@
+:root {
+    --cor-de-fundo:#1e1e1e;
+    --verde: #6fff57;
+    --branco: #ffffff;
+    --botão-ativo: #3a375e;
+    --botao-inativo:rgba(58, 55, 94, 0.5);
+    --texto-de-fundo: rgba(58, 55, 94, 0.3)
+}
+
 body {
     background-color: #f006d1; /* Cor de fundo cinza claro */
     color: #333; /* Cor do texto cinza escuro */
@@ -30,5 +39,9 @@ p {
     width: 100%; 
     height: auto; 
     display: block; 
+  }
+  @media (max-width: 365px)
+  body {
+    background-color: ;
   }
   
